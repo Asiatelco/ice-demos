@@ -19,7 +19,6 @@ try
             _ = communicator.ShutdownAsync();
         };
 
-
     if (args.Length > 0)
     {
         Console.Error.WriteLine("too many arguments");

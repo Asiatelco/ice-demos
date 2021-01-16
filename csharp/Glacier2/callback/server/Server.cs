@@ -16,7 +16,6 @@ Console.CancelKeyPress += (sender, eventArgs) =>
         // We are not waiting for a return value
     };
 
-
 if (args.Length > 0)
 {
     throw new ArgumentException("too many arguments");
